@@ -31,7 +31,7 @@ class Comments extends Component {
 
   onAddComment = event => {
     event.preventDefault()
-    const {name, comment, commentsList} = this.state
+    const {name, comment} = this.state
     const initialBackgroundColorClassName = `initial-container ${
       initialContainerBackgroundClassNames[
         Math.ceil(
@@ -132,3 +132,4 @@ class Comments extends Component {
   }
 }
 export default Comments
+
